@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body >
+	
+	<div id="app" >
+		<button id="btn" v-on:click="change" :style="{backgroundColor: back1}">{{name}}</button>
+
+		<div id="box" :style="{width: boxWidth + 'px', backgroundColor: boxColor2, height:Border + 'px' }"   ></div>
+		<hr>
+		<button id="btn2" @click="changeColor">{{name2}}</button>
+		<div id="box2" :style="{backgroundColor: boxColor, height:Border + 'px' }"></div>
+
+		
+	</div>
+		<script src="vue.js"></script>
+	<script src="vue2.js"></script>
+</body>
+</html>

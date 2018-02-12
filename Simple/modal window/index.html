@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+button{
+	cursor: pointer;
+}
+	body{
+		background-color: #fff;
+	}
+	.body{
+		background-color: #000;
+		opacity: 0.3;
+	}
+	.style{
+		width: 400px;
+		height:220px;
+		border: 2px solid #60a868;
+		background-color: #a0ffc0;
+		margin-left: 500px;
+		margin-top: 250px;
+	}
+	.x{
+		width: 30px;
+		height:28px;
+		border-radius: 20px;
+		border:none;
+		background-color: #60a868;
+		font-size: 20px;
+		position: absolute;
+		margin-left: 385px;
+		margin-top: -15px;
+		border:1.5px solid #000;
+	}
+	.x:hover{
+		width: 30px;
+		height:28px;
+		border-radius: 20px;
+		border:none;
+		background-color: #a0ffc0;
+		font-size: 20px;
+		position: absolute;
+		margin-left: 385px;
+		margin-top: -15px;
+		border:1.5px solid #000;
+	}
+	.input1{
+		position: absolute;
+		margin-top: 60px;
+		width: 300px;
+		height: 30px;
+		margin-left: 30px;
+		border-radius: 20px 20px;
+		border: 1.5px solid #60a868;
+		padding-left: 20px;
+	}
+	.input2{
+		width:300px;
+		height: 30px;
+		position: absolute;
+		margin-top: 150px;
+		margin-left: 30px;
+		border-radius: 20px 20px;
+		border: 1.5px solid #60a868;
+		padding-left: 20px;
+	}
+	.name{
+		position: absolute;
+		margin-left: 35px;
+		font-size: 20px;
+	}
+	.number{
+		position: absolute;
+		margin-left: 35px;
+		margin-top: 110px;
+		font-size: 20px;
+	}
+</style>
+<body>
+	
+	<div id="app">
+		<button @click="showme" >show</button>
+
+		<div v-if="show" class="style">
+			<p class="name">name</p>
+			<input type="text" class="input1" placeholder="name">
+			<p class="number">number</p>
+			<input type="text" class="input2" placeholder="number">
+			<button class="x" @click="hide">x</button>
+		</div>
+	</div>
+	<script src="vue.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

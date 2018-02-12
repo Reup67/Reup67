@@ -1,0 +1,75 @@
+#box{
+	width: 130px;
+	height: 130px;
+	background-color: lightgreen;
+	margin-top: 50px;
+	border:2px solid #69d569;
+	margin-left: 50px;
+}
+#box2{
+	width: 130px;
+	height: 130px;
+	background-color: lightgreen;
+	margin-top: 50px;
+	border:2px solid #b95e5e;
+	margin-left: 50px;
+}
+#box3{
+	width: 130px;
+	height: 130px;
+	background-color: lightgreen;
+	margin-top: 50px;
+	border:2px solid  #69d569;
+	margin-left: 50px;
+	margin-top: 1000px;
+	
+}
+
+#btn{
+	width: 130px;
+	height: 30px;
+	background-color: lightblue;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Roboto;
+	border: 2px solid blue;
+	border-radius: 20px 20px;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#btn:hover{
+	width: 130px;
+	height: 30px;
+	background-color: #ddf1f8;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Roboto;
+	border: 2px solid blue;
+	border-radius: 20px 20px;
+	cursor: pointer;
+}
+#btn2{
+	width: 130px;
+	height: 30px;
+	background-color: #e6a2e2;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Roboto;
+	border: 2px solid #bb76ab;
+	border-radius: 20px 20px;
+	cursor: pointer;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#btn2:hover{
+	width: 130px;
+	height: 30px;
+	background-color: #eac0e8;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Roboto;
+	border: 2px solid #bb76ab;
+	border-radius: 20px 20px;
+	cursor: pointer;
+}
